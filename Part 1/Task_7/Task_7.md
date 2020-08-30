@@ -1,4 +1,4 @@
-jannekahkonen@Janne-MBP Task_1.7 % docker build -t curler .
+% docker build -t curler .
     Sending build context to Docker daemon  3.584kB
     Step 1/6 : FROM ubuntu:16.04
     ---> 330ae480cb85
@@ -21,7 +21,7 @@ jannekahkonen@Janne-MBP Task_1.7 % docker build -t curler .
     Successfully built 4f5b91da5078
     Successfully tagged curler:latest
 
-jannekahkonen@Janne-MBP Task_1.7 % docker run -it curler   
+% docker run -it curler   
     Input website:
     helsinki.fi
     Searching..
@@ -33,4 +33,4 @@ jannekahkonen@Janne-MBP Task_1.7 % docker run -it curler
     <p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
     </body></html>
     
-jannekahkonen@Janne-MBP Task_1.7 % 
+% 

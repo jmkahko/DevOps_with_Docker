@@ -1,4 +1,4 @@
-jannekahkonen@Janne-MBP docker-clock % docker build -t docker-clock .
+% docker build -t docker-clock .
     Sending build context to Docker daemon  2.048kB
     Step 1/4 : FROM devopsdockeruh/overwrite_cmd_exercise
     ---> 3d2b622b1849
@@ -15,7 +15,7 @@ jannekahkonen@Janne-MBP docker-clock % docker build -t docker-clock .
     Successfully built 01d9be08f881
     Successfully tagged docker-clock:latest
 
-jannekahkonen@Janne-MBP docker-clock % docker run docker-clock   
+% docker run docker-clock   
     1
     2
     3

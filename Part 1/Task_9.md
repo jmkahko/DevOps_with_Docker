@@ -1,4 +1,4 @@
-jannekahkonen@Janne-MBP DevOps_with_Docker % docker run -p 80:80 devopsdockeruh/ports_exercise
+% docker run -p 80:80 devopsdockeruh/ports_exercise
     > ports_exercise@1.0.0 start /usr/app
     > node index.js
 

@@ -1,9 +1,9 @@
-jannekahkonen@Janne-MBP DevOps_with_Docker % docker run -d --rm -it --name webbisivu ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+% docker run -d --rm -it --name webbisivu ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
 
-jannekahkonen@Janne-MBP DevOps_with_Docker % docker start webbisivu
+% docker start webbisivu
     webbisivu
 
-jannekahkonen@Janne-MBP DevOps_with_Docker % docker exec -it webbisivu bash
+% docker exec -it webbisivu bash
     root@fd8cf09e9040:/# apt-get install curl wget
     Reading package lists... Done
     Building dependency tree       
@@ -36,7 +36,7 @@ jannekahkonen@Janne-MBP DevOps_with_Docker % docker exec -it webbisivu bash
     root@fd8cf09e9040:/# exit
     exit
 
-jannekahkonen@Janne-MBP DevOps_with_Docker % docker kill webbisivu
+% docker kill webbisivu
     webbisivu
 
-jannekahkonen@Janne-MBP DevOps_with_Docker % 
+% 

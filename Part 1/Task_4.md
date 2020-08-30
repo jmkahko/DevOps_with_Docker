@@ -1,12 +1,12 @@
 Secret message: "Docker is easy"
 
-jannekahkonen@Janne-MBP DevOps_with_Docker % docker run -d --name loki devopsdockeruh/exec_bash_exercise       
+% docker run -d --name loki devopsdockeruh/exec_bash_exercise       
     f8f9da8ac93212445e2b2be93b38a87496d85ba5399cfe2e20f3dfa23174559c
 
-jannekahkonen@Janne-MBP DevOps_with_Docker % docker start loki
+% docker start loki
     loki
 
-jannekahkonen@Janne-MBP DevOps_with_Docker % docker exec -it loki bash
+% docker exec -it loki bash
     root@f8f9da8ac932:/usr/app# ls
     Dockerfile  README.md  index.js  logs.txt
     root@f8f9da8ac932:/usr/app# tail -f ./logs.txt
@@ -27,4 +27,4 @@ jannekahkonen@Janne-MBP DevOps_with_Docker % docker exec -it loki bash
     root@f8f9da8ac932:/usr/app# exit
     exit
 
-jannekahkonen@Janne-MBP DevOps_with_Docker % 
+% 
