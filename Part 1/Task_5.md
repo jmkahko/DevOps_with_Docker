@@ -1,9 +1,11 @@
 % docker run -d --rm -it --name webbisivu ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
 
 % docker start webbisivu
+
     webbisivu
 
 % docker exec -it webbisivu bash
+
     root@fd8cf09e9040:/# apt-get install curl wget
     Reading package lists... Done
     Building dependency tree       
@@ -37,6 +39,7 @@
     exit
 
 % docker kill webbisivu
+
     webbisivu
 
 % 
