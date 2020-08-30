@@ -8,6 +8,7 @@ Konttiin on asennettu Node.js kehitysympäristö:
 - Nodejs
 
 Imagen Dockerfile käyttö esimerkki
+
     FROM janka2020/omakehitysymparisto:latest
     WORKDIR /mydir 
     COPY koodi .
