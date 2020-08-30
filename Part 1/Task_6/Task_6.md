@@ -1,4 +1,5 @@
 % docker build -t docker-clock .
+
     Sending build context to Docker daemon  2.048kB
     Step 1/4 : FROM devopsdockeruh/overwrite_cmd_exercise
     ---> 3d2b622b1849
@@ -16,6 +17,7 @@
     Successfully tagged docker-clock:latest
 
 % docker run docker-clock   
+
     1
     2
     3
