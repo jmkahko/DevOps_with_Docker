@@ -1,4 +1,5 @@
 Backend komennot
+
     Build
         % docker build -t backend .  
     
@@ -6,6 +7,7 @@ Backend komennot
         % docker run -v "$(pwd)/logs.txt:/mydir/logs.txt" -p 3005:8000 backend
 
 Frontend komennot
+
     Build
         % docker build -t frontend .  
     
