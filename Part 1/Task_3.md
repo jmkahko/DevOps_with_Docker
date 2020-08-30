@@ -1,4 +1,5 @@
 % docker run -it devopsdockeruh/pull_exercise
+
     Unable to find image 'devopsdockeruh/pull_exercise:latest' locally
     latest: Pulling from devopsdockeruh/pull_exercise
     8e402f1a9c57: Pull complete 
@@ -18,6 +19,7 @@
     Exiting now
 
 % docker run -it devopsdockeruh/pull_exercise
+
     Give me the password: basics
     You found the correct password. Secret message is:
     "This is the secret message"
