@@ -1,4 +1,5 @@
 % docker build -t curler .
+
     Sending build context to Docker daemon  3.584kB
     Step 1/6 : FROM ubuntu:16.04
     ---> 330ae480cb85
@@ -22,6 +23,7 @@
     Successfully tagged curler:latest
 
 % docker run -it curler   
+
     Input website:
     helsinki.fi
     Searching..
