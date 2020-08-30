@@ -1,12 +1,15 @@
 Secret message: "Docker is easy"
 
-% docker run -d --name loki devopsdockeruh/exec_bash_exercise       
+% docker run -d --name loki devopsdockeruh/exec_bash_exercise
+
     f8f9da8ac93212445e2b2be93b38a87496d85ba5399cfe2e20f3dfa23174559c
 
 % docker start loki
+
     loki
 
 % docker exec -it loki bash
+
     root@f8f9da8ac932:/usr/app# ls
     Dockerfile  README.md  index.js  logs.txt
     root@f8f9da8ac932:/usr/app# tail -f ./logs.txt
