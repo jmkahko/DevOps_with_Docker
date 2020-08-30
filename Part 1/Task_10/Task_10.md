@@ -1,7 +1,9 @@
 Build
+
     % docker build -t task10 .
 
 Käynnistys
+
     % docker run -p 5000:5000 task10
 
 Selaimessa:
